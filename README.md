@@ -19,7 +19,7 @@ and blocks SQL Injection and XSS attacks in real time.
 - Dual layer detection (Regex + ML)
 
 ## 🏗️ Architecture
-
+````
 User Input
     ↓
 Flask Web App
@@ -33,6 +33,7 @@ Confidence Score
 BLOCK 🚨 or ALLOW ✅
 
 ## 🛠️ Tech Stack
+````
 
 - **Platform:** Kali Linux
 - **Language:** Python 3
@@ -111,7 +112,7 @@ Try these payloads in the WebGuard interface:
 - `<svg onload=alert(1)>`
 
 ## 📁 Project Structure
-
+````
 WebGuard/
 ├── app.py                    # Flask application
 ├── logger.py                 # Attack logger
@@ -127,6 +128,7 @@ WebGuard/
 │   └── index.html            # Web interface
 ├── static/                   # CSS/JS files
 └── logs/                     # Attack logs
+````
 
 ## 🎓 Educational Purpose
 
